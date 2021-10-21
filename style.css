@@ -1,0 +1,41 @@
+* {
+    margin: ;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.div {
+    margin: 200px 0 0 500px;
+    padding: 50px;
+    display: flex;
+}
+
+
+
+.div2 {
+    text-transform: uppercase;
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 1px solid red;
+    border-radius: 30px;
+    padding: 20px 60px;
+    background-color: red;
+    color: white;
+    display: flex;
+}
+
+
+.div1::before {
+    content: "";
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    border: 20px solid white;
+    border-radius: 60px;
+    display: block;
+    float: right;
+    margin-left: -60px;
+    margin-top: -40px;
+}
